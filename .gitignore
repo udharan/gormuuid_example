@@ -1,0 +1,18 @@
+vendor
+.env
+node_modules
+logs
+yarn.lock
+
+# ignore all files starting with . or ~
+##.*
+~*
+
+# ignore OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+*.idea
+*.TMP
+*.tmp
+.vscode-upload.json
